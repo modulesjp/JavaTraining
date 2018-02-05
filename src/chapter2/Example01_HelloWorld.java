@@ -1,7 +1,7 @@
 package chapter2;
 
 /**
- * ƒRƒ“ƒpƒCƒ‹
+ * ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«
  * 
  */
 public class Example01_HelloWorld {

@@ -1,15 +1,15 @@
 package chapter2;
 
 /**
- * ƒRƒƒ“ƒg
+ * ã‚³ãƒ¡ãƒ³ãƒˆ
  *
  */
-/* ‚±‚ÌŠÔ‚ÍƒRƒƒ“ƒg‚É‚È‚é */
+/* ã“ã®ä¸­ã¯ã‚³ãƒ¡ãƒ³ãƒˆã¨ã—ã¦æ‰±ã‚ã‚Œã‚‹ */
 public class Example02_Comment {
 	/*
-	 * •¡”‚Å‚à‰Â
+	 * è¤‡æ•°ã§ã‚‚å¯
 	 */
 	public static void main(String[] args) {
-		System.out.println("ƒRƒƒ“ƒg‚ÌŠm”F"); // ‚±‚êˆÚs‚ªƒRƒƒ“ƒg‚É‚È‚é
+		System.out.println("ã‚³ãƒ¡ãƒ³ãƒˆ"); // ä»¥é™ãŒã‚³ãƒ¡ãƒ³ãƒˆã¨ã—ã¦æ‰±ã‚ã‚Œã‚‹
 	}
 }

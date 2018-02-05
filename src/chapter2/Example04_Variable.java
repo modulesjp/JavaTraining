@@ -1,22 +1,22 @@
 package chapter2;
 
 /**
- * •Ï”
- * Šî–{ƒf[ƒ^Œ^iƒvƒŠƒ~ƒeƒBƒuŒ^j
+ * å¤‰æ•°
+ * åŸºæœ¬ãƒ‡ãƒ¼ã‚¿å‹ï¼ˆãƒ—ãƒªãƒŸãƒ†ã‚£ãƒ–å‹ï¼‰
  */
 public class Example04_Variable {
 	public static void main(String[] args) {
-		// ƒf[ƒ^Œ^¢•Ï”–¼;
+		// ãƒ‡ãƒ¼ã‚¿å‹â–³å¤‰æ•°å;
 		int i = 1212;
 		char c = 'a';
 		boolean b = true;
 		
-		// ¦•¶š—ñ‚ÍŠî–{ƒf[ƒ^Œ^‚Å‚Í‚È‚¢
+		// â€»æ–‡å­—åˆ—ã¯åŸºæœ¬ãƒ‡ãƒ¼ã‚¿å‹ã§ã¯ãªã„
 		String str = "Hello";
 		
 		System.out.println(i);
 		
-		// Java‚Å‚ÍUnicode‚ªg‚í‚ê‚Ä‚¢‚é
+		// Javaã§ã¯UnicodeãŒä½¿ã‚ã‚Œã¦ã„ã‚‹
 		char u = '\u4032';
 	}
 }

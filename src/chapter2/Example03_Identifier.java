@@ -1,18 +1,18 @@
 package chapter2;
 
 /**
- * ���ʎq
+ * 識別子
  *
  */
 public class Example03_Identifier {
 	public static void main(String[] args) {
-		// �����ʎq�̋K��
-		// �P�DJava�ł��炩���ߒ�`����Ă��镶���͎g�p�s��
-		// �Q�D�g�p�ł��镶���͐����i0~9�j�A�A���t�@�x�b�g�iA~Z�Aa~z�j�A�A���_�[�X�R�A�i_�j�A�h���}�[�N�i$�j
-		// �R�D�擪�ɐ����͎g�p�s��
+		// ▼識別子の規則
+		// １．Javaであらかじめ定義されている文字は使用不可
+		// ２．使用できる文字は数字（0~9）、アルファベット（A~Z、a~z）、アンダースコア（_）、ドルマーク（$）
+		// ３．先頭に数字は使用不可
 	}
 	
-	/* �upublic�v�͎��ʎq�Ȃ̂ŁA�ȉ����\�b�h�̓R���p�C���G���[����������
+	/* 「public」は識別子なので、以下メソッドはコンパイルエラーが発生する
 	public static public() {
 		System.out.println("Hello");
 	}
