@@ -1,7 +1,7 @@
 package chapter2;
 
 /**
- * P22 クラスファイル生成
+ * コンパイル
  * 
  */
 public class Example01_HelloWorld {
