@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 列挙型
  *
  */
-public class Example06_Enum {
+public class Ex006_Enum {
 	/* 列挙型の作成　「修飾子△enum△列挙型名{値1,値2,値3}」 */
 	public enum Color {RED,BLUE,YELLOW}
 	

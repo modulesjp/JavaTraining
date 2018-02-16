@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 変数
  * 基本データ型（プリミティブ型）
  */
-public class Example04_Variable {
+public class Ex004_Variable {
 	public static void main(String[] args) {
 		int a; // 変数の宣言　「データ型△変数名;」
 		a = 1203; // 値の代入　「変数△=△値;」

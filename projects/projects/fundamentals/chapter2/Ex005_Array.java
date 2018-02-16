@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 配列
  * 
  */
-public class Example05_Array {
+public class Ex005_Array {
 	public static void main(String[] args) {
 		int[] a; // 配列の宣言パターン1　「データ型[]△配列名;」
 		int b[]; // 配列の宣言パターン2 「データ型△配列名[];」

@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 算術演算子
  *
  */
-public class Example08_ArithmeticOperator {
+public class Ex008_ArithmeticOperator {
 	public static void main(String[] args) {
 		
 		/*

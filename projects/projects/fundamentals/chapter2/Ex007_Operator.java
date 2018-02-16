@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 演算子
  *
  */
-public class Example07_Operator {
+public class Ex007_Operator {
 	public static void main(String[] args) {
 		/*
 		 * 優先順位の例

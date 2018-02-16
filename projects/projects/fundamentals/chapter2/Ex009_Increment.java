@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * インクリメント/デクリメント
  *
  */
-public class Example09_Increment {
+public class Ex009_Increment {
 	public static void main(String[] args) {
 		int num;
 		

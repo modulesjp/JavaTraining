@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 関係演算子
  *
  */
-public class Example11_RelationalOperator {
+public class Ex011_RelationalOperator {
 	public static void main(String[] args) {
 		int a = 3;
 		int b = 2;

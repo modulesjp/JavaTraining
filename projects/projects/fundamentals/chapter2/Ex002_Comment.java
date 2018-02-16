@@ -5,7 +5,7 @@ package projects.fundamentals.chapter2;
  *
  */
 /* この中はコメントとして扱われる */
-public class Example02_Comment {
+public class Ex002_Comment {
 	/*
 	 * 複数でも可
 	 */

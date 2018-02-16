@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 識別子
  *
  */
-public class Example03_Identifier {
+public class Ex003_Identifier {
 	public static void main(String[] args) {
 		// ▼識別子の規則
 		// １．Javaであらかじめ定義されている文字は使用不可

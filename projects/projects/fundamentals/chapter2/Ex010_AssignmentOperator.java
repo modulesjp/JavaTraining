@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 代入演算子/複合演算子
  *
  */
-public class Example10_AssignmentOperator {
+public class Ex010_AssignmentOperator {
 	public static void main(String[] args) {
 		/*
 		 * 代入演算子

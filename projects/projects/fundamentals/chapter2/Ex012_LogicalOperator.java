@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * 論理演算子
  *
  */
-public class Example12_LogicalOperator {
+public class Ex012_LogicalOperator {
 	public static void main(String[] args) {
 		// booleanのみ可
 		int i = 5;
