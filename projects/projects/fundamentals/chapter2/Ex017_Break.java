@@ -6,14 +6,19 @@ package projects.fundamentals.chapter2;
  */
 public class Ex017_Break {
 	public static void main(String[] args) {
-		int cnt = 0;
-		for (int i = 0; i < 10; i++) {
-			cnt += 1;
-			System.out.println(cnt);
-			if (cnt > 5) {
-				System.out.println("処理を終了");
+		for (int i = 0; i <= 10; i++) {
+			if (i == 5) {
 				break;
 			}
+			System.out.println(i);
 		}
 	}
 }
+
+/*
+ *############################
+ *# Note : 
+ *# iが5の場合はループを抜ける
+ *# 以降の処理は実行されない
+ *#############################
+ */
