@@ -1,6 +1,7 @@
 package practice.fundamentals.chapter2;
 
 /*
+ * 実習02
  * 次のプログラムを「Hello Java」が
  * 表示されるように修正してください。
  */
