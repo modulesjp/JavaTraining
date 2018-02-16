@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * for文
  *
  */
-public class Ex013_for {
+public class Ex013_For {
 	public static void main(String[] args) {
 		for (int x = 0; x <= 10; x++) {
 			System.out.println(x);

@@ -4,7 +4,7 @@ package projects.fundamentals.chapter2;
  * while文
  *
  */
-public class Ex015_while {
+public class Ex015_While {
 	public static void main(String[] args) {
 		int cnt = 1;
 		int sum = 0;
