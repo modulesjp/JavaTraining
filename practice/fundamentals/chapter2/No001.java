@@ -1,10 +1,12 @@
 package fundamentals.chapter2;
 
 /*
- * 実習01
- * 自分の名前を表示させてください。
+ * 実習01 - HelloWorld
  */
-public class Practice01 {
+public class No001 {
+	/*
+	 * 自分の名前を表示させてください
+	 */
 	public static void main(String[] args) {
 		// ここに処理を記述
 		
