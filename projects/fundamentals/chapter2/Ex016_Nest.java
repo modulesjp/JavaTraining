@@ -1,4 +1,4 @@
-package projects.fundamentals.chapter2;
+package fundamentals.chapter2;
 
 /**
  * ネストする繰り返し

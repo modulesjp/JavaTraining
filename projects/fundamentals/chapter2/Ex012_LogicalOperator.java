@@ -1,4 +1,4 @@
-package projects.fundamentals.chapter2;
+package fundamentals.chapter2;
 
 /**
  * 論理演算子
