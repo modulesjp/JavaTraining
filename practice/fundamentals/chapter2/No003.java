@@ -1,4 +1,4 @@
-package practice.fundamentals.chapter2;
+package fundamentals.chapter2;
 
 /*
  * 実習03 - 変数
