@@ -1,4 +1,4 @@
-package.fundamentals.chapter2;
+package fundamentals.chapter2;
 
 /*
  * 算術演算子
