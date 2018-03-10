@@ -1,13 +1,12 @@
 package fundamentals.chapter2;
 
 /*
- * 実習004 - 算術演算子
+ * 変数を使って「x = 23」を表示させてください
  */
 public class No004 {
-    /*
-     * 2つの整数を定義して、その和を求めて表示させてください。
-     */
-    public static void main(String[] args) {
-    
-    }
+	
+	public static void main(String[] args) {
+		
+		
+	}
 }

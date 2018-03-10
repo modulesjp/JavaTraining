@@ -1,14 +1,12 @@
 package fundamentals.chapter2;
 
 /*
- * 実習03 - 変数
+ * 次のプログラムを「Hello Java」が
+ * 表示されるように修正してください
  */
 public class No003 {
-	/*
-	 * 変数を使って「x = 23」を表示させてください
-	 */
-	public static void main(String[] args) {
-		
-		
+
+	public void static main(String[] args) {
+		System.out.println("Hello Java");
 	}
 }

@@ -1,14 +1,10 @@
 package fundamentals.chapter2;
 
 /*
- * 実習01 - HelloWorld
+ * 次のソースファイルをインデントして見やすくしてください
  */
 public class No001 {
-	/*
-	 * 自分の名前を表示させてください
-	 */
-	public static void main(String[] args) {
-		// ここに処理を記述
-		
-	}
+public static void main(String[] args) {
+System.out.println("Hello World");
+}
 }

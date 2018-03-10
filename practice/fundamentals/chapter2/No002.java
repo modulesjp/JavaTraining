@@ -1,14 +1,12 @@
 package fundamentals.chapter2;
 
 /*
- * 実習02 - 修飾子
+ * 自分の名前を表示させてください
  */
 public class No002 {
-	/*
-	 * 次のプログラムを「Hello Java」が
-     * 表示されるように修正してください
-     */
-	public void static main(String[] args) {
-		System.out.println("Hello Java");
+
+	public static void main(String[] args) {
+		// ここに処理を記述
+		
 	}
 }
