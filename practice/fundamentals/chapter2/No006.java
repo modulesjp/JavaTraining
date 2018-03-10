@@ -1,11 +1,13 @@
 package fundamentals.chapter2;
 
 /*
- * 三角形の面積を求めて結果を表示させてください(サイズは任意)
+ * 次のプログラムを実行したところ、エラーが起きました。
+ * 表示結果が14となるように修正してください。
  */
 public class No006 {
-    
-     public static void main(String[] args) {
-     
-     }
+	public static void main(String[] args) {
+		int a = 1;
+		String b = 4;
+		System.out.println(a + b);
+	}
 }
