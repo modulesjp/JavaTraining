@@ -1,11 +1,12 @@
 package fundamentals.chapter2;
 
 /*
- * 三角形の面積を求めて結果を表示させてください(サイズは任意)
+ * 変数を使って「x = 23」を表示させてください
  */
-public class No010 {
-    
-     public static void main(String[] args) {
-     
-     }
+public class No004 {
+	
+	public static void main(String[] args) {
+		
+		
+	}
 }
