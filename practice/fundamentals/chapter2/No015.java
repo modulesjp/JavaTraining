@@ -4,7 +4,7 @@ package fundamentals.chapter2;
  * 次のプログラムの間違っている箇所を修正して
  * 正常に実行できるようにしてください。
  */
-public class No007 {
+public class No015 {
 	public static viod main(String arsg[]) {
 		byte b = 0;
 		int i = 2;

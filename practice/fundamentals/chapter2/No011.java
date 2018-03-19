@@ -1,9 +1,8 @@
 package fundamentals.chapter2;
 
 /*
- * 変数aが2,変数bが6の場合
- * 変数aと変数bの和を求めて表示させてください
+ * 2つの整数「15」と「39」を定義して、2つの和を表示するプログラムを作成してください。
  */
-public class No005 {
+public class No011 {
 
 }

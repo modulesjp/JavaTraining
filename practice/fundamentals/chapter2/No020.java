@@ -8,6 +8,6 @@ package fundamentals.chapter2;
  * 2人目：74
  * 3人目：92
  */
-public class No011 {
+public class No020 {
 	
 }
