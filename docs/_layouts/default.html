@@ -60,7 +60,7 @@
 					</div>
 					<ul class="list-group">
 						<a href="#" class="list-group-item" data-toggle="collapse" data-target="#introductions" data-parent="#menu">
-				        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+				        <span class="glyphicon glyphicon-chevron-down pull-right"></span>
 				        はじめに
 				      </a>
 				      <div id="introductions" class="sublinks collapse">
@@ -84,7 +84,7 @@
  (function($) {
    'use strict';
    // Collapseイベント
-   $('#menuOne, #menuTwo').on({
+   $('#introductions, #other').on({
      // 折り畳み開く処理
      'show.bs.collapse': function() {
        $('a[href="#' + this.id + '"] span.glyphicon-chevron-down')
@@ -99,7 +99,7 @@
      }
    });
    // ハッシュリンクキャンセル
-   $('a[href="#menuOne"], a[href="#menuTwo"]').on('click', function(event) {
+   $('a[href="#introductions"], a[href="#other"]').on('click', function(event) {
      event.preventDefault();
    });
  })(jQuery);
