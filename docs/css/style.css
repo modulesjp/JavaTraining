@@ -13,7 +13,7 @@ h3 {
   font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"ƒƒCƒŠƒI",meiryo,sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h1 {
@@ -39,5 +39,14 @@ header,
 	border: none;
 	border-radius: 0;
 	color: #fefefe;
+}
+
+.side-menu {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.container {
+	padding: 0;
 }
 
