@@ -4,8 +4,13 @@
   padding: 0;
 }
 
-body {
+body,
+h1,
+h2,
+h3 {
   background: #fefefe;
   color: #3c4146;
+  font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"ƒƒCƒŠƒI",meiryo,sans-serif;
   font-size: 16px;
 }
+
