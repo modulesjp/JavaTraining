@@ -7,12 +7,10 @@ defaults:
       type: "pages"
     values:
       section: ""
-            layout: "default"
-            description: "AndroidTraining - Training course repository for android app development"
-            og_type: "article"
-    -
-        scope:
-            path: "introductions"
-            type: "pages"
-        values: 
-            section: "introductions"
+      layout: "default"
+  -
+    scope:
+      path: "introductions"
+      type: "pages"
+    values: 
+      section: "introductions"
