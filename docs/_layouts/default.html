@@ -6,34 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="{{page.description}}" />
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <!-- ogp for twitter -->
-    <meta content="@mixi_engineers" name="twitter:site" />
-    <meta content="summary" name="twitter:card" />
-    {% if page.title %}
-    <meta content="{{page.title}} - {{site.title}}" name="twitter:title" />
-    {% else %}
-    <meta content="{{site.title}}" name="twitter:title" />
-    {% endif %}
-    <meta content="{{page.description}}" name="twitter:description" />
-    <meta content="{{site.github.url}}/assets/logo.png" name="twitter:image:src" />
-    <!-- ogp -->
-    <meta content="{{site.title}}" property="og:site_name" />
-    <meta content="{{page.og_type}}" property="og:type" />
-    <meta content="{{site.github.url}}/assets/logo.png" property="og:image" />
-    {% if page.title %}
-    <meta content="{{page.title}} - {{site.title}}" name="og:title" />
-    {% else %}
-    <meta content="{{site.title}}" property="og:title" />
-    {% endif %}
-    <meta content="{{site.github.url}}{{page.url}}" property="og:url" />
-    <meta content="{{page.description}}" property="og:description" />
-    {% if page.keywords %}
-    <meta name="keyword" content="{{page.keywords | join: ', '}}" />
-    {% endif %}
-
-    <meta name="go-import" content="github.com/mixi-inc/AndroidTraining git https://github.com/mixi-inc/AndroidTraining.git">
-    <script src="{{site.components}}/webcomponentsjs/webcomponents.js"></script>
-    
+    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<!--JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/css/style.css">
     <link rel="shortcut icon" href="{{site.baseurl}}/assets/favicon.ico" />
     <link rel="import" href="{{site.components}}/paper-scroll-header-panel/paper-scroll-header-panel.html">
@@ -44,14 +21,38 @@
     <link rel="import" href="{{site.components}}/paper-item/paper-item.html">
     <link rel="import" href="{{site.components}}/paper-icon-button/paper-icon-button.html">
     <link rel="import" href="{{site.components}}/iron-icons/iron-icons.html">
-    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
 </head>
 <body>
+<header>
+	<div class="container">
+		<nav class="navbar navbar-default">
+		  <div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+		      <span class="sr-only">メニュー</span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		    </button>
+		    <a href="/" class="navbar-brand">Java Training</a>
+		  </div>
+		 
+		  <div id="gnavi" class="collapse navbar-collapse">
+		    <ul class="nav navbar-nav">
+		      <li><a href="/">ホーム</a></li>
+		      <li><a href="http://github.com/ubns/JavaTraining/projects">サンプルプロジェクト</a></li>
+		      <li><a href="http://github.com/ubns/JavaTraining/practice">実習問題</a></li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+</header>
 <!-- MAIN CONTENT -->
-        <div id="main_content_wrap" class="content outer" itemprop="articleBody">
-          <section id="main_content" class="inner">
-            {{content}}
-          </section>
-        </div>
+<section>
+	<div id="main_content_wrap" class="content outer" itemprop="articleBody">
+	  <div id="main_content" class="inner">
+	    {{content}}
+	  </div>
+	</div>
+</section>
 </body>
 </html>
