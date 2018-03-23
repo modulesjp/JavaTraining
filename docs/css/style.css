@@ -12,6 +12,14 @@ h3 {
   color: #3c4146;
   font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"ÉÅÉCÉäÉI",meiryo,sans-serif;
   font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 10px;
 }
 
 img {
