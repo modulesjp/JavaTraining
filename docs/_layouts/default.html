@@ -32,12 +32,12 @@
 	      <span class="icon-bar"></span>
 	      <span class="icon-bar"></span>
 	    </button>
-	    <a href="https://ubns.github.io/JavaTraining/" class="navbar-brand">Java Training</a>
+	    <a href="{{site.baseurl}}" class="navbar-brand">Java Training</a>
 	  </div>
 	 
 	  <div id="gnavi" class="collapse navbar-collapse">
 	    <ul class="nav navbar-nav navbar-right">
-	      <li><a href="https://ubns.github.io/JavaTraining/">ホーム</a></li>
+	      <li><a href="{{site.baseurl}}">ホーム</a></li>
 	      <li><a href="http://github.com/ubns/JavaTraining/tree/master/projects">サンプルプロジェクト</a></li>
 	      <li><a href="http://github.com/ubns/JavaTraining/tree/master/practice">実習問題</a></li>
 	    </ul>
@@ -47,17 +47,20 @@
 <!-- MAIN CONTENT -->
 <section>
 	<div class="container">
-		<div class="col-xs-12 col-md-8">
+		<div class="col-xs-12 col-sm-8 col-md-8">
 		  <div class="content">
 		    {{content}}
 		  </div>
 		</div>
-		<div class="col-xs-12 col-md-4">
+		<div class="col-xs-12 col-sm-4 col-md-4">
 			<div class="side-menu">
 				<div class="panel panel-default">
+					<div class="panel-heading">
+						Contents
+					</div>
 					<ul class="list-group">
-						<a href="{{site.baseurl}}/introduction/1.0.0.What-is-a-program.html"><li class="list-group-item">Introductions</li></a>
-						<a href="{{site.baseurl}}"><li class="list-group-item">Other</li></a>
+						<li class="list-group-item"><a href="{{site.baseurl}}/introductions/1.0.0.What-is-a-program.html">Introductions</a></li>
+						<li class="list-group-item"><a href="{{site.baseurl}}">Other</a></li>
 					</ul>
 				</div>
 			</div>
