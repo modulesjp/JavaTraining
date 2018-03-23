@@ -19,8 +19,8 @@ img {
 }
 
 header,
-navbar-default,
-navbar-header {
+.navbar-default,
+.navbar-header {
 	background: #3c4146;
 	border: none;
 	border-radius: 0;
