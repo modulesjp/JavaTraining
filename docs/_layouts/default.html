@@ -60,7 +60,7 @@
 					</div>
 					<ul class="list-group">
 						<a href="#introductions" class="list-group-item" data-toggle="collapse" data-target="#introductions" data-parent="#menu">
-				        <span class="glyphicon glyphicon-triangle-right"></span>
+				        <span class="fas fa-caret-right"></span>
 				        はじめに
 				      </a>
 				      <div id="introductions" class="sublinks collapse">
@@ -87,15 +87,15 @@
    $('#introductions, #other').on({
      // 折り畳み開く処理
      'show.bs.collapse': function() {
-       $('a[href="#' + this.id + '"] span.glyphicon-triangle-right')
-         .removeClass('glyphicon-triangle-right')
-         .addClass('glyphicon-triangle-bottom');
+       $('a[href="#' + this.id + '"] span.fa-caret-right')
+         .removeClass('fa-caret-right')
+         .addClass('fa-caret-down');
      },
      // 折り畳み閉じる処理
      'hide.bs.collapse': function() {
-       $('a[href="#' + this.id + '"] span.glyphicon-triangle-bottom')
-         .removeClass('glyphicon-triangle-bottom')
-         .addClass('glyphicon-triangle-right');
+       $('a[href="#' + this.id + '"] span.fa-caret-down')
+         .removeClass('fa-caret-down')
+         .addClass('fa-caret-right');
      }
    });
    // ハッシュリンクキャンセル
