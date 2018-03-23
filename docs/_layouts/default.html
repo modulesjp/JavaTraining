@@ -53,19 +53,60 @@
 		  </div>
 		</div>
 		<div class="col-xs-12 col-sm-4 col-md-4">
-			<div class="side-menu">
+			<div class="menu">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						Contents
+						目次
 					</div>
 					<ul class="list-group">
-						<a href="{{site.baseurl}}/introductions/1.0.0.What-is-a-program.html" class="list-group-item">Introductions</a>
-						<a href="{{site.baseurl}}" class="list-group-item">Other</a>
+						<a href="#" class="list-group-item">
+				        <span class="glyphicon glyphicon-home"></span> ホーム
+				        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+				      </a>
+				      <a href="#menuOne" class="list-group-item" data-toggle="collapse" data-target="#menuOne" data-parent="#menu">
+				        <span class="glyphicon glyphicon-envelope"></span> メッセージ <span class="label label-success">3</span>
+				        <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+				      </a>
+				      <div id="menuOne" class="sublinks collapse">
+				        <a class="list-group-item small"> 受信ボックス<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+				        <a class="list-group-item small"> 送信ボックス<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+				      </div>
+				      <a href="#menuTwo" class="list-group-item" data-toggle="collapse" data-target="#menuTwo" data-parent="#menu">
+				        <span class="glyphicon glyphicon-cog"></span> ツール
+				        <span class="glyphicon glyphicon-chevron-up pull-right"></span>
+				      </a>
+				      <div id="menuTwo" class="sublinks collapse in">
+				        <a class="list-group-item small"> ツール１<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+				      </div>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<script>
+ (function($) {
+   'use strict';
+   // Collapseイベント
+   $('#menuOne, #menuTwo').on({
+     // 折り畳み開く処理
+     'show.bs.collapse': function() {
+       $('a[href="#' + this.id + '"] span.glyphicon-chevron-down')
+         .removeClass('glyphicon-chevron-down')
+         .addClass('glyphicon-chevron-up');
+     },
+     // 折り畳み閉じる処理
+     'hide.bs.collapse': function() {
+       $('a[href="#' + this.id + '"] span.glyphicon-chevron-up')
+         .removeClass('glyphicon-chevron-up')
+         .addClass('glyphicon-chevron-down');
+     }
+   });
+   // ハッシュリンクキャンセル
+   $('a[href="#menuOne"], a[href="#menuTwo"]').on('click', function(event) {
+     event.preventDefault();
+   });
+ })(jQuery);
+</script>
 </body>
 </html>
