@@ -63,7 +63,8 @@ section {
     margin: 40px 0;
 }
 
-.content ul {
+.content ul,
+.content ol {
 	padding: 0 2em;
 }
 
