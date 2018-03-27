@@ -47,6 +47,10 @@ header,
 	color: #fefefe;
 }
 
+.navbar-brand {
+    color: #fff;
+}
+
 .menu {
     color: #767676;
 	font-size: 14px;
