@@ -47,8 +47,8 @@ header,
 	color: #fff;
 }
 
-.navbar-brand {
-	color: #fff;
+.navbar-header {
+	padding: 10px 0;
 }
 
 .menu {
