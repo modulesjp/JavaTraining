@@ -62,7 +62,7 @@ header,
 	padding: 5px 10px;
 }
 
-.sublinks {
+.sublinks a {
 	background: #dfdfdf;
 	color: #4183c4;
 	padding-left: 1em;
