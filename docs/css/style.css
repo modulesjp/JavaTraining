@@ -79,13 +79,13 @@ section {
 	padding: 0 2em;
 }
 
+pre code {
+	overflow: auto;
+}
+
 footer {
 	padding: 20px 10px;
 	text-align: center;
-}
-
-pre {
-	overflow: auto;
 }
 
 /*
