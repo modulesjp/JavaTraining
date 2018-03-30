@@ -81,6 +81,7 @@ section {
 
 pre code {
 	overflow: auto;
+	white-space: inherit;
 }
 
 footer {
