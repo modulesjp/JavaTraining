@@ -67,6 +67,13 @@
 				      	<a class="list-group-item" href="{{site.baseurl}}/introductions/1.0.1.about-java.html">Javaについて</a>
 				      	<a class="list-group-item" href="{{site.baseurl}}/introductions/1.0.2.java-dev-env.html">Javaの開発環境</a>
 				      </div>
+				      <a href="#fundamentals" class="list-group-item" data-toggle="collapse" data-target="#fundamentals" data-parent="#menu">
+				        <span class="fa fa-caret-right"></span>
+				        Javaの基礎
+				      </a>
+				      <div id="fundamentals" class="sublinks collapse">
+				      	<a class="list-group-item" href="{{site.baseurl}}/fundamentals/2.0.0.first-java.html">初めてのJava</a>
+				      </div>
 				      <a href="#other" class="list-group-item" data-toggle="collapse" data-target="#other" data-parent="#menu">
 				        <span class="fa fa-caret-right"></span>
 				        その他
@@ -88,7 +95,7 @@
  (function($) {
    'use strict';
    // Collapseイベント
-   $('#introductions, #other').on({
+   $('#introductions, #fundamentals , #other').on({
      // 折り畳み開く処理
      'show.bs.collapse': function() {
        $('a[href="#' + this.id + '"] span.fa-caret-right')
@@ -103,7 +110,7 @@
      }
    });
    // ハッシュリンクキャンセル
-   $('a[href="#introductions"], a[href="#other"]').on('click', function(event) {
+   $('a[href="#introductions"], a[href="#fundamentals"], a[href="#other"]').on('click', function(event) {
      event.preventDefault();
    });
  })(jQuery);

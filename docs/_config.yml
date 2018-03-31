@@ -14,3 +14,9 @@ defaults:
       type: "pages"
     values: 
       section: "introductions"
+  -
+    scope:
+      path: "fundamentals"
+      type: "pages"
+    values: 
+      section: "fundamentals"
