@@ -83,6 +83,10 @@ section {
 	padding: 0 2em;
 }
 
+pre {
+	border: none;
+}
+
 pre code {
 	overflow: auto;
 	white-space: inherit;
