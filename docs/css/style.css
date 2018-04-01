@@ -92,6 +92,14 @@ footer {
 	padding: 20px 10px;
 	text-align: center;
 }
+/*
+ * Source Highlight 
+ */
+.language-bash pre {
+	background: #444;
+	color: #63E463;
+}
+
 
 /*
  *#######################
