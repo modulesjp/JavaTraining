@@ -118,6 +118,10 @@ footer {
 	color: #6db33f;
 }
 
+.language-syntax pre {
+	background: #ffffcd;
+}
+
 /*
  *#######################
  * iPhone
