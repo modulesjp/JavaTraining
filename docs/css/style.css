@@ -93,6 +93,7 @@ table td {
 
 pre {
 	margin: 1em 0;
+	background: #ffffcd;
 }
 
 pre code {
@@ -118,9 +119,6 @@ footer {
 	color: #6db33f;
 }
 
-.language-syntax {
-	background: #ffffcd;
-}
 
 /*
  *#######################
