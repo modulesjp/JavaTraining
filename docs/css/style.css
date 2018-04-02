@@ -105,8 +105,8 @@ footer {
 	color: #63E463;
 }
 
-.language-bash > .cm,
-.language-bash > .c1 {
+.language-bash.cm,
+.language-bash.c1 {
 	color: #6db33f;
 }
 
