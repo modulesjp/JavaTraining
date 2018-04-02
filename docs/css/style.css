@@ -82,6 +82,10 @@ section {
 	padding: 0 2em;
 }
 
+table {
+	margin: 2em 0;
+}
+
 table td {
 	border: 1px solid #ddd;
 	padding: 5px 10px;
