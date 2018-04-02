@@ -124,6 +124,9 @@ footer {
 
 .language-sh pre {
 	background: #ffffcd;
+}
+
+.language-sh code {
 	overflow: auto;
 }
 
