@@ -118,9 +118,13 @@ footer {
 	color: #6db33f;
 }
 
+.language-sh {
+	display: inline-block;
+}
+
 .language-sh pre {
 	background: #ffffcd;
-	display: inline-block;
+	overflow: auto;
 }
 
 /*
