@@ -86,9 +86,15 @@ table {
 	margin: 2em 0;
 }
 
-table td {
+table td,
+table th {
 	border: 1px solid #ddd;
 	padding: 5px 10px;
+}
+
+table th {
+	background: #3c4146;
+	color: #fff;
 }
 
 pre {
