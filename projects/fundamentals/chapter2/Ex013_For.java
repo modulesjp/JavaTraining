@@ -6,7 +6,7 @@ package fundamentals.chapter2;
  */
 public class Ex013_For {
 	public static void main(String[] args) {
-		for (int x = 0; x <= 10; x++) {
+		for (int x = 0; x < 10; x++) {
 			System.out.println(x);
 		}
 		
@@ -16,7 +16,7 @@ public class Ex013_For {
 		}
 		
 		// 条件がtrueである間は無限にループし続ける
-		for (int z = 0; z <=10; z--) {
+		for (int z = 0;; z--) {
 			System.out.println(z);
 		}
 	}
