@@ -127,6 +127,7 @@ footer {
 .language-sh {
 	display: inline-block;
 	max-width: 100%;
+	overflow: auto;
 }
 
 .language-sh pre {
