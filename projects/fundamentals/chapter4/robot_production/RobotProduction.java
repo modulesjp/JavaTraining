@@ -6,6 +6,6 @@ package fundamentals.chapter4.robot_production;
 public class RobotProduction {
 	public static void main(String[] args) {
 		Robot robot = new Robot(); // ロボット生成
-		robot.talk();
+		System.out.println(robot.talk());
 	}
 }

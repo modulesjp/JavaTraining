@@ -5,7 +5,7 @@ package fundamentals.chapter4.robot_production;
  */
 public class Robot {
 	// 話す機能の実装
-	public void talk() {
-		System.out.println("私の名前はロボットです。");
+	public String talk() {
+		return "私の名前はロボットです。";
 	}
 }
