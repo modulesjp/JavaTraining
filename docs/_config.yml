@@ -20,7 +20,7 @@ defaults:
       type: "pages"
     values: 
       section: "fundamentals"
-   -
+  -
     scope:
       path: "structure"
       type: "pages"
