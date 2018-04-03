@@ -127,15 +127,16 @@ footer {
 .language-sh {
 	display: inline-block;
 	max-width: 100%;
-	overflow: auto;
+	overflow-x: auto;
 }
 
 .language-sh pre {
 	background: #ffffcd;
+	overflow-x: auto;
 }
 
 .language-sh code {
-	overflow: auto;
+	overflow-x: auto;
 }
 
 /*
