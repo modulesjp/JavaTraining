@@ -1,11 +1,7 @@
 package fundamentals.chapter2;
-
 /*
- * 次のプログラムをEclipseではなくコマンドプロンプトから実行し、
- * どのようなエラーメッセージが表示されるか確認してください。
+ * byte型の変数に値を代入し、表示させるプログラムを作成してください。
  */
 public class No007 {
-	public static void main(String[] args) {
-		System.out.println("Compile Error")
-	}
+
 }
