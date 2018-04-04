@@ -132,7 +132,7 @@ footer {
 
 .language-sh pre {
 	background: #ffffcd;
-	overflow-x: auto;
+	overflow-x: scroll;
 	padding: 15px;
 }
 
