@@ -97,6 +97,9 @@ table th {
 	color: #fff;
 }
 
+/*
+ * Pre
+ */
 pre {
 	margin: 1em 0;
 }
@@ -104,24 +107,6 @@ pre {
 pre code {
 	overflow: auto;
 	white-space: inherit;
-}
-
-footer {
-	padding: 20px 10px;
-	text-align: center;
-}
-/*
- * Source Highlight
- */
-.language-bash pre {
-	background: #444;
-	border: none;
-	color: #63E463;
-}
-
-.cm,
-.c1 {
-	color: #6db33f;
 }
 
 .language-sh {
@@ -139,6 +124,37 @@ footer {
 .language-sh code {
 	overflow-x: auto;
 }
+
+.language-bash pre {
+	background: #444;
+	border: none;
+	color: #63E463;
+}
+
+/*
+ * Source Highlight
+ */
+/* コメント */
+.cm,
+.c1 {
+	color: #6db33f;
+}
+
+/* キーワード */
+.kd {
+	color: #d73a49;
+}
+
+.s {
+	color: #032f62;
+}
+
+footer {
+	padding: 20px 10px;
+	text-align: center;
+}
+
+
 
 /*
  *#######################
