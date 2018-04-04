@@ -1,5 +1,5 @@
 baseurl: '/JavaTraining'
-markdown:    redcarpet
+markdown: "redcarpet"
 
 defaults:
   -  
