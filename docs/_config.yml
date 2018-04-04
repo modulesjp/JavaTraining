@@ -1,5 +1,4 @@
 baseurl: '/JavaTraining'
-pygments: true
 
 defaults:
   -  
