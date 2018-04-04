@@ -145,8 +145,14 @@ pre code {
 	color: #d73a49;
 }
 
+/* ダブルクォーテーション */
 .s {
 	color: #032f62;
+}
+
+/* クラス名 */
+.nc {
+	color: #6f42c1;
 }
 
 footer {
