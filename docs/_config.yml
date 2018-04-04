@@ -1,5 +1,7 @@
 baseurl: '/JavaTraining'
-markdown: "redcarpet"
+safe: true
+lsi: false
+pygments: true
 
 defaults:
   -  
