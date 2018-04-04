@@ -1,4 +1,4 @@
-package fundamentals.chapter4.robot_production;
+package fundamentals.chapter4.Ex023_robot_production;
 
 /*
  * ロボット生成クラス
@@ -6,6 +6,6 @@ package fundamentals.chapter4.robot_production;
 public class RobotProduction {
 	public static void main(String[] args) {
 		Robot robot = new Robot(); // ロボット生成
-		System.out.println(robot.talk());
+		robot.run(10);
 	}
 }
