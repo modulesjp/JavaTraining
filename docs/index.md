@@ -51,4 +51,4 @@ Javaの基礎知識とWebアプリケーション開発スキルを身に付け�
 [ドットインストール](https://dotinstall.com/)  
 
 * SEとして  
-[https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854]  (https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854)  
+[https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854](https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854)  
