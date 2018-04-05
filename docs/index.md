@@ -36,19 +36,19 @@ Javaの基礎知識とWebアプリケーション開発スキルを身に付け�
 ## 参考サイト
 今後エンジニアとして生きていくために必要なサイトや情報など
 
-* 公式サイト
-[Java API](https://docs.oracle.com/javase/jp/8/docs/api/)
+* 公式サイト  
+[Java API](https://docs.oracle.com/javase/jp/8/docs/api/)  
 
-* Q&A
-[スタックオーバーフロー](https://ja.stackoverflow.com/)
+* Q&A  
+[スタックオーバーフロー](https://ja.stackoverflow.com/)  
 
-* 情報共有・アウトプット
-[Qiita](https://qiita.com/)
-[GitHub](https://github.com/)
-[Slideshare](https://www.slideshare.net/)
+* 情報共有・アウトプット  
+[Qiita](https://qiita.com/)  
+[GitHub](https://github.com/)  
+[Slideshare](https://www.slideshare.net/)  
 
-* 学習
-[ドットインストール](https://dotinstall.com/)
+* 学習  
+[ドットインストール](https://dotinstall.com/)  
 
-* SEとして
-[https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854](https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854)
+* SEとして  
+[https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854]  (https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854)  
