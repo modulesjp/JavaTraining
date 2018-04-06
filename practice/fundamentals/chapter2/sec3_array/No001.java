@@ -8,6 +8,6 @@ package fundamentals.chapter2.sec3_array;
  * 2人目：74
  * 3人目：92
  */
-public class No020 {
+public class No001 {
 	
 }
