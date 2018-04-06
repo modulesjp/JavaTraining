@@ -1,4 +1,4 @@
-package fundamentals.chapter2;
+package fundamentals.chapter2.sec1_first;
 
 /*
  * 次のプログラムを「Hello Java」が

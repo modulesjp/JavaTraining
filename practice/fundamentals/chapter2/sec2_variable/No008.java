@@ -1,10 +1,10 @@
-package fundamentals.chapter2;
+package fundamentals.chapter2.sec2_variable;
 
 /*
  * 次のプログラムの間違っている箇所を修正して
  * 正常に実行できるようにしてください。
  */
-public class No015 {
+public class No008 {
 	public static viod main(String arsg[]) {
 		byte b = 0;
 		int i = 2;

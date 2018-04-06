@@ -1,10 +1,10 @@
-package fundamentals.chapter2;
+package fundamentals.chapter2.sec2_variable;
 
 /*
  * 次のプログラムを実行したところ、エラーが起きました。
  * 表示結果が14となるように修正してください。
  */
-public class No014 {
+public class No007 {
 	public static void main(String[] args) {
 		int a = 1;
 		String b = 4;

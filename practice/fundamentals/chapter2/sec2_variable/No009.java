@@ -1,10 +1,10 @@
-package fundamentals.chapter2;
+package fundamentals.chapter2.sec2_variable;
 
 /*
  * 次のプログラムの間違っている箇所を修正して
  * 正常に実行できるようにしてください。
  */
-public class No016 {
+public class No009 {
 	public static void main(String[] args) {
 		float f = 1.2;
 		double d = 5.275;
