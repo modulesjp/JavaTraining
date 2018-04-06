@@ -69,6 +69,7 @@
 				      	<a class="list-group-item" href="{{site.baseurl}}/introductions/1.0.1.about-java.html">Javaについて</a>
 				      	<a class="list-group-item" href="{{site.baseurl}}/introductions/1.0.2.java-dev-env.html">Javaの開発環境</a>
 				      	<a class="list-group-item" href="{{site.baseurl}}/fundamentals/2.0.0.first-java.html">初めてのJava</a>
+				      	<a class="list-group-item" href="{{site.baseurl}}/fundamentals/2.0.1.java-structure.html">Javaの構造</a>
 				      </div>
 				      <a href="#fundamentals" class="list-group-item" data-toggle="collapse" data-target="#fundamentals" data-parent="#menu">
 				        <span class="fa fa-caret-right"></span>
@@ -142,6 +143,14 @@
 				      	<a class="list-group-item" href="{{site.baseurl}}/fundamentals/6.0.5.throws.html">throwsキーワード</a>
 				      	<a class="list-group-item" href="{{site.baseurl}}/fundamentals/6.0.6.assertion.html">アサーション</a>
 				      </div>
+				      <a href="#io" class="list-group-item" data-toggle="collapse" data-target="#io" data-parent="#menu">
+				        <span class="fa fa-caret-right"></span>
+				        Javaの入出力管理
+				      </a>
+				      <div id="io" class="sublinks collapse">
+				      	<a class="list-group-item" href="{{site.baseurl}}/fundamentals/7.0.0.file.html">ファイル処理</a>
+				      	<a class="list-group-item" href="{{site.baseurl}}/fundamentals/7.0.1.stream.html">ストリーム</a>
+				      </div>
 				      <a href="#other" class="list-group-item" data-toggle="collapse" data-target="#other" data-parent="#menu">
 				        <span class="fa fa-caret-right"></span>
 				        その他
@@ -163,7 +172,7 @@
  (function($) {
    'use strict';
    // Collapseイベント
-   $('#introductions, #fundamentals, #structure, #arrays, #exceptions, #other').on({
+   $('#introductions, #fundamentals, #structure, #arrays, #exceptions, #io, #other').on({
      // 折り畳み開く処理
      'show.bs.collapse': function() {
        $('a[href="#' + this.id + '"] span.fa-caret-right')
@@ -178,7 +187,7 @@
      }
    });
    // ハッシュリンクキャンセル
-   $('a[href="#introductions"], a[href="#fundamentals"], a[href="#structure"], a[href="#arrays"], a[href="#exceptions"], a[href="#other"]').on('click', function(event) {
+   $('a[href="#introductions"], a[href="#fundamentals"], a[href="#structure"], a[href="#arrays"], a[href="#exceptions"], a[href="#io"], a[href="#other"]').on('click', function(event) {
      event.preventDefault();
    });
  })(jQuery);
