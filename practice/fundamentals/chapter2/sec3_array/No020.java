@@ -1,4 +1,4 @@
-package fundamentals.chapter2;
+package fundamentals.chapter2.sec3_array;
 
 /*
  * 3人のテスト結果がそれぞれ84点、74点、92点でした。

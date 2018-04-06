@@ -1,4 +1,4 @@
-package fundamentals.chapter2;
+package fundamentals.chapter2.sec3_array;
 
 /*
  * 次の配列を定義して、配列の要素数を取得して表示するプログラムを作成してください。
