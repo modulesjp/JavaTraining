@@ -1,5 +1,4 @@
 package fundamentals.chapter2.sec2_variable;
-
 /*
  * 次のプログラムを実行したところ、エラーが起きました。
  * 表示結果が14となるように修正してください。
