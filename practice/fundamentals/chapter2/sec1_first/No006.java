@@ -1,7 +1,7 @@
 package fundamentals.chapter2.sec1_first;
 
 /*
- * 次のプログラムをEclipseではなくコマンドプロンプトから実行し、
+ * 次のプログラムを実行し、
  * どのようなエラーメッセージが表示されるか確認してください。
  */
 public class No006 {
