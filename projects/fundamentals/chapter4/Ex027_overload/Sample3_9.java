@@ -9,8 +9,9 @@ class OLTest {
 		System.out.println("metTest(int a) = " + a );
 	}
 	
-	void metTest(double a, double b) {
-		System.out.println("metTest(double a, double b) = " + a + "&" +b);
+	String metTest(double a, double b) {
+		//System.out.println("metTest(double a, double b) = " + a + "&" +b);
+		return "aaa";
 	}
 }
 
