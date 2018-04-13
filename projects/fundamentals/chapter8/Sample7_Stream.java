@@ -8,7 +8,7 @@ import java.io.IOException;
 /*
  * 低レベルストリーム
  */
-public class Sample7_00 {
+public class Sample7_Stream {
 	public static void main(String[] args) {
 		File file = new File("/Users/node/Work/tmp/test.txt");
 		try {
