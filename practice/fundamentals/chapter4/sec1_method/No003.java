@@ -4,5 +4,5 @@ package fundamentals.chapter4.sec1_method;
  * mainメソッドからそのメソッドを使用していくつか日付を表示させてください。
  */
 public class No003 {
-
+	
 }
