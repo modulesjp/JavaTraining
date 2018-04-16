@@ -1,4 +1,4 @@
-package fundamentals.chapter5.sec1_arraylist;
+package fundamentals.chapter5.sec2_arraylist;
 
 /*
  * ArrayListクラスをインスタンス化し、addメソッドを使用して以下のデータを格納してください。

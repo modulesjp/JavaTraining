@@ -1,4 +1,4 @@
-package fundamentals.chapter5.sec1_arraylist;
+package fundamentals.chapter5.sec2_arraylist;
 /*
  * 次のデータをArrayListに格納してください。
  * 格納後に、田中二郎をremoveメソッドを使用して削除してください。
