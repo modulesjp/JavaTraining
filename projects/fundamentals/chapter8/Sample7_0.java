@@ -19,5 +19,6 @@ public class Sample7_0 {
 		
 		// getAbsolutePath()  ・・・  ファイルまでのパスを返す
 		System.out.println(dir.getAbsolutePath());
+		
 	}
 }
