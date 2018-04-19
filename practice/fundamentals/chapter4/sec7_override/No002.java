@@ -18,7 +18,7 @@ public class No002 {
 
 class Book {
 	int price = 500;  // 価格
-	void showPrice() {
-		System.out.println(price + "円");
+	int showPrice() {
+		return price;
 	}
 }
