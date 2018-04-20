@@ -3,7 +3,7 @@ package fundamentals.chapter10.sec1_list;
  * 次の社員クラスをインスタンス化した際にコンストラクタで名前と年齢を設定して3人の社員を作成してください。
  * また、作成した社員をArrayListに格納し、for文を使用して名前と年齢を出力するプログラムを作成してください。
  */
-public class No009 {
+public class No006 {
 
 }
 
