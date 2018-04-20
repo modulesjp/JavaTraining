@@ -9,24 +9,38 @@ import java.util.List;
 public class ListSample {
 	public static void main(String[] args) {
 		// リストコレクションの生成
-		List<String> list = new ArrayList<String>();
+		List<String> list = new ArrayList<Book>();
+		Book book1 = new Book("Java Basic",1000);
+		Book book2 = new Book("ああああああ",2000);
+		list.add(book1);
+		list.add(book2);
 		
-		// リストへの値格納
-		list.add("りんご");
-		list.add("ごりら");
-		list.add("らっぱ");
-		
-		// リストのサイズ取得
-		System.out.println("コレクションのサイズ :" + list.size());
-		
-		// リストの出力
-		System.out.println(list);
-		
-		
-		// for文による取り出し
-		for (String s  : list) {
-			System.out.print(s);
-			System.out.print(" → ");
+		for(Book b : list) {
+			System.out.println(b.getTitle() + b.getPrice());
 		}
+	}
+}
+
+class Book {
+	String title;
+	int price;
+	
+	Book(String title, int price) {
+		this.title = title;
+		this.price = price;
+	}
+	
+	// getter/setter
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
 	}
 }
