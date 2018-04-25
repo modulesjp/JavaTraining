@@ -1,9 +1,8 @@
 ## EclipseへのJavaTraining導入方法
+ここでは、EclipseにJavaTrainingをインポートする方法を説明していきます。
 
-
-Eclispeを起動して、「プロジェクト・エクスプローラー」上で右クリック
+Eclispeを起動して、「プロジェクト・エクスプローラー」上で右クリック  
 「インポート」　→　「インポート」
-
 ![import1](https://user-images.githubusercontent.com/32017808/39233695-1d079026-48ac-11e8-820f-de9babc70828.png)
 
 「Git」　→　「Gitからプロジェクト」を選択して「次へ」
@@ -21,6 +20,7 @@ Eclispeを起動して、「プロジェクト・エクスプローラー」上�
 
 「master」にチェックが入っていることを確認し、「次へ」
 
+
 ディレクトリー入力欄に設定されているパスをコピーしておき、「次へ」
 
 ![import3](https://user-images.githubusercontent.com/32017808/39235307-85a93cb6-48b0-11e8-947a-6ec61dfb98b1.png)
@@ -29,7 +29,7 @@ Eclispeを起動して、「プロジェクト・エクスプローラー」上�
 「新規プロジェクト・ウィザードを使用してインポート(P)」にチェックが入っている状態で「完了」
 
 ウィザードを選択というポップアップ画面が表示されるため、
-たぶん一番上にある「Javaプロジェクト」を選択して「次へ」
+たぶん一番上にあるであろう「Javaプロジェクト」を選択して「次へ」
 
 ![import3](https://user-images.githubusercontent.com/32017808/39235340-9a71cac8-48b0-11e8-8a24-7283cdaefed0.png)
 
