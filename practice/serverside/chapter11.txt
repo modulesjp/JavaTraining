@@ -1,0 +1,31 @@
+■事前準備
+MySQLへログイン後、以下のSQLを実行して事前準備を行ってください
+・データベースの作成
+　CREATE DATABASE dbtest;
+・データベースの変更
+ USE dbtest
+・テーブルの作成
+　CREATE TABLE user(
+	id serial primary key,
+	name text,
+	pass text
+ );
+・データ登録
+ INSERT INTO user(name,pass) VALUES ('sht','pass');
+
+ 
+■問題１
+ログイン画面からユーザ名とパスワードを入力し、userテーブルのユーザ名・パスワードと合致した場合に
+マイページ画面へ遷移するアプリケーションを作成してください。
+また、マイページではユーザ名を表示するようにしてください。
+--------------------------
+<View>
+ログイン画面：login.jsp
+マイページ画面：mypage.jsp
+<Controller>
+サーブレット：AuthServlet
+<Model>
+DBアクセス用クラス：AuthDao
+<JavaBeans>
+データ格納用クラス：UserBean
+--------------------------
